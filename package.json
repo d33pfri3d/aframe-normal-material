@@ -1,0 +1,25 @@
+{
+  "name": "aframe-normal-mesh-component",
+  "version": "1.0.0",
+  "description": "Aframe Component for the MeshNormalMaterial. A material that maps the normal vectors to RGB colors",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify examples/main.js -o examples/build.js",
+    "dev": "budo examples/main.js:build.js --dir examples --port 8000 --live --open",
+    "dist": "webpack index.js dist/aframe-normal-mesh-component.js && webpack -p index.js dist/aframe-normal-mesh-component.min.js",
+    "prepublish": "npm run dist",
+    "preghpages": "npm run build && shx rm -rf gh-pages && shx mkdir gh-pages && shx cp -r examples/* gh-pages",
+    "ghpages": "npm run preghpages && ghpages -p gh-pages",
+    "start": "npm run dev"
+  },
+  "author": "Shaun Dunne",
+  "license": "MIT",
+  "devDependencies": {
+    "aframe": "^0.5.0",
+    "browserify": "^14.1.0",
+    "budo": "^9.4.7",
+    "webpack": "^2.2.1",
+    "ghpages": "0.0.10",
+    "shx": "^0.2.2"
+  }
+}
