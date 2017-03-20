@@ -1,5 +1,5 @@
 {
-  "name": "aframe-normal-mesh-component",
+  "name": "aframe-normal-material",
   "version": "1.0.0",
   "description": "Aframe Component for the MeshNormalMaterial. A material that maps the normal vectors to RGB colors",
   "main": "index.js",
