@@ -12,7 +12,19 @@
     "ghpages": "npm run preghpages && ghpages -p gh-pages",
     "start": "npm run dev"
   },
-  "author": "Shaun Dunne",
+  "author": "Shaun Dunne <shaun@studiozero.co>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunmnemonic/aframe-normal-mesh-component.git"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-component",
+    "aframe-vr",
+    "vr",
+    "mozvr",
+    "webvr"
+  ],
   "license": "MIT",
   "devDependencies": {
     "aframe": "^0.5.0",
