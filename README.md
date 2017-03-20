@@ -21,6 +21,5 @@ require('aframe-normal-material')
 [See a Demo]()
 
 ```
-	<a-box height="5" width="5" depth="5" normal-material></a-box>
-
+<a-box height="5" width="5" depth="5" normal-material></a-box>
 ```
