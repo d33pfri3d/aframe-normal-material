@@ -16,6 +16,26 @@ npm install aframe-normal-material
 require('aframe-normal-material')
 ```
 
+### I don't want to install a component for this - no problem 
+
+```
+AFRAME.registerComponent('normal-material', {
+
+	multiple: true,
+
+  init: function (){
+    var material = new THREE.MeshNormalMaterial();
+    var geometry = this.el.getObject3D('mesh').geometry;
+    this.el.setObject3D('mesh', new THREE.Mesh(geometry, material));
+  },
+
+  remove: function(){
+    this.el.removeObject3D('mesh');
+  }
+
+});
+```
+
 ### Usage
 
 [See a Demo]()
