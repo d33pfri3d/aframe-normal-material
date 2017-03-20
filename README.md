@@ -1,4 +1,4 @@
-#A-Frame VR `normal-material` Component
+# A-Frame VR `normal-material` Component
 
 A-Frame VR component for using the `THREE.MeshNormalMaterial` as a material on a component. The `MeshNormalMaterial` is a material that maps the normal vectors to the RGB colors.
 
