@@ -38,7 +38,7 @@ AFRAME.registerComponent('normal-material', {
 
 ### Usage
 
-[See a Demo](https://shaunmnemonic.github.io/aframe-normal-mesh-component/)
+[See a Demo](https://shaun1x.github.io/aframe-normal-mesh-component/)
 
 ```
 <a-box height="5" width="5" depth="5" normal-material></a-box>
